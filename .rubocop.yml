@@ -1,0 +1,38 @@
+require:
+  - rubocop-rake
+
+Layout/HashAlignment:
+  Enabled: false
+
+AllCops:
+  NewCops: enable
+  Exclude:
+    - db/seeds.rb
+    - db/schema.rb
+  TargetRubyVersion: 3.3
+
+Style/EmptyMethod:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: true
+
+Layout/LineLength:
+  Max: 140
+  Exclude:
+    - test/*.rb
+
+Naming/MethodParameterName:
+  MinNameLength: 2
+
+Style/StringLiterals:
+  EnforcedStyle: single_quotes
+
+Style/StringLiteralsInInterpolation:
+  EnforcedStyle: single_quotes
+
+Metrics/MethodLength:
+  Max: 25
+
+Style/ParallelAssignment:
+  Enabled: false
