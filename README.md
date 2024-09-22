@@ -1,6 +1,6 @@
 # Merge [Rubocop](https://rubocop.org) Configs
 
-## TL;RD
+## TL;DR
 
 Read `RuboCop` config files, merge them and print the result
 
